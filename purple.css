@@ -1,4 +1,7 @@
 :root {
+  --purple-1: #8163bd;
+  --purple-2: #79589f;
+  
   --title-color: #8064a9;
   --text-color: #444444;
   --light-text-color: #666666;
@@ -239,7 +242,18 @@ thead {
 #write strong {
   padding: 0 2px;
   font-weight: bold;
+  color: var(--purple-1);
+  font-family: var(--em-font);
 }
+
+#write em {
+  padding: 0 5px 0 2px;
+  font-family: var(--em-font);
+        color: var(--purple-2);
+  /* font-style: normal;
+  color: #4abdeb; */
+}
+
 
 /* inline code */
 #write code,
