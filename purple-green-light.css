@@ -2,7 +2,7 @@
 
 :root {
   --title-color: #444444;
-  --link-color: #2aa899;
+  --link-color: var(--lighter-text-color);
   --code-color: #2aa899;
   --border-quote: #eee;
   --header-weight: bold;
