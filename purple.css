@@ -189,6 +189,10 @@ hr {
   border-top: 1px solid var(--border);
 }
 
+u{
+	color: darkslategray; 
+}
+
 /* 列表 */
 li > ol,
 li > ul {
