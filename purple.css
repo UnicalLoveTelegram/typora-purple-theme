@@ -7,7 +7,7 @@
   --light-text-color: #666666;
   --lighter-text-color: #888888;
   --link-color: #2aa899;
-  --code-color: #745fb5;
+  --code-color: #d63384;
 }
 
 /* open-sans-regular - latin-ext_latin */
@@ -59,7 +59,7 @@
     --light-text-color: #666666;
     --lighter-text-color: #888888;
     --link-color: #2aa899;
-    --code-color: #745fb5;
+    --code-color: #d63384;
     --shadow-color: #eee;
     --border-quote: rgba(116, 95, 181, 0.2);
     --border-quote-grey: #c8c8c8;
