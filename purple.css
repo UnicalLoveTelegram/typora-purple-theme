@@ -80,19 +80,12 @@
 }
 
 
-/* 打印 */
 
 @media print {
     html {
         font-size: 0.9rem;
     }
     table,
-    pre {
-        page-break-inside: avoid;
-    }
-    pre {
-        word-wrap: break-word;
-    }
     #write {
         max-width: 100%;
     }
@@ -121,7 +114,7 @@ body {
 }
 
 
-/* 页边距 和 页面大小 */
+
 
 #write {
     font-family: var(--base-font);
@@ -254,7 +247,7 @@ u{
 	color: darkslategray; 
 }
 
-/* 列表 */
+
 
 li>ol,
 li>ul {
@@ -286,7 +279,7 @@ ul li {
 }
 
 
-/* 引用 */
+
 
 blockquote {
     border-left: 0.3rem solid var(--border-quote);
@@ -295,7 +288,7 @@ blockquote {
 }
 
 
-/* 表格 */
+
 
 table {
     margin-bottom: 1.25rem;
@@ -323,7 +316,7 @@ thead {
 }
 
 
-/* 粗体 */
+
 
 #write strong {
   padding: 0 2px;
@@ -390,7 +383,7 @@ tt {
 }
 
 
-/* 图片 */
+
 
 .md-image>.md-meta {
     border-radius: 3px;
@@ -401,7 +394,7 @@ tt {
 }
 
 
-/* 图片靠左显示 */
+
 
 
 /* p .md-image:only-child {
@@ -465,16 +458,6 @@ footer {
     background: #fdfdfd !important;
     font-size: 0.9rem;
 }
-
-
-/* 代码框阴影 */
-
-
-/* #write pre.md-fences {
-  display: block;
-  -webkit-overflow-scrolling: touch;
-  box-shadow: var(--shadow);
-} */
 
 .cm-s-inner .cm-variable {
     color: var(--text-color);
